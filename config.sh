@@ -25,7 +25,7 @@
 
 # This will be the folder name under /magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=maikvitesse-OP5CameraFix
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
@@ -48,7 +48,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "  OP5CameraFix by maikvitesse  "
   ui_print "*******************************"
 }
 
@@ -83,6 +83,7 @@ REPLACE="
 set_permissions() {
   # Default permissions, don't remove them
   set_perm_recursive  $MODPATH  0  0  0755  0644
+  set_perm  $MODPATH/system/etc/camera/camera_config.xml      0       0       0644
 
   # Only some special files require specific permissions
   # The default permissions should be good enough for most cases
