@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=maikvitesse-OP5CameraFix
+name=OnePlus 5 LineageOS Snapchat Camera Fix
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=maikvitesse
+description=This fix is for Snapchat that switches between the two rear cameras and does not want to switch to the front camera. This module fixes this by replacing the camera_config.xml
 template=4
