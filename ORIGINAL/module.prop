@@ -1,0 +1,7 @@
+id=maikvitesse-OP5CameraFix
+name=OnePlus 5 Snapchat Camera Fix [ORIGINAL-BLOB]
+version=v2.0
+versionCode=20
+author=maikvitesse
+description=This fix is for Snapchat or any other 3rd party camera that switches between the two rear cameras and does not want to switch to the front camera. This module fixes this by replacing the camera_config.xml
+template=1400
